@@ -1,6 +1,7 @@
 section .data
-    msg db      "Today is 256th year's day.", 0x0A, "Today is the Programmers' Day!", 0x0A
-
+    msg db       "Today is 256th year's day.", 0x0A
+        db       "Today is the Programmers' Day!", 0x0A
+        
 section .text
     global _start
 _start:
